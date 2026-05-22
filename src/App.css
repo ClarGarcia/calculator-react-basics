@@ -1,0 +1,94 @@
+.App {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 2% 0%;
+  border-radius: 31px;
+  border-color: grey;
+  background: #2a2938;
+  box-shadow:
+    20px 20px 40px rgba(0, 0, 0, 0.55),
+    -8px -8px 18px rgba(255, 255, 255, 0.03),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.04);
+
+  position: relative;
+}
+
+.texts {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.texts h6 {
+  font-weight: 400;
+  text-align: end;
+  color: #747474;
+  font-size: 12px;
+  margin: 6% 0
+}
+
+.texts p {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: end;
+  color: #5b5678;
+  margin: 2% 0%
+}
+
+.containerCalculator::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+
+  background: linear-gradient(145deg,
+      rgba(255, 255, 255, 0.06),
+      transparent 30%);
+
+  pointer-events: none;
+}
+
+
+/*Input ----------------------------------------------------------------------*/
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.input-field {
+  display: block;
+  padding: 10px;
+  font-size: 23px;
+  text-align: end;
+  border-radius: 5px;
+  outline: none;
+  background-color: #3D3A4F;
+  color: #b3a8ba;
+  border: none;
+  width: 93%;
+}
+
+.input-highlight {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0px;
+  background-color: #A15CF2;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus+.input-label+.input-highlight {
+  width: 100%;
+}

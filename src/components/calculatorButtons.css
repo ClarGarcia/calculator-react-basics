@@ -1,0 +1,56 @@
+/*Botões operações -----------------------------------------------------------*/
+.calculatorButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  padding: 9%;
+  gap: 4%;
+}
+
+.calculatorButton button {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  border: 0;
+  font-size: 2rem;
+  border-radius: 50px;
+  background: #3d3a4f;
+  color: #b3a8ba;
+  box-shadow:
+    6px 6px 12px rgba(0, 0, 0, 0.2),
+    -4px -4px 10px rgba(255, 255, 255, 0.03),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.calculatorButton button:hover {
+  transform: translateY(-2px);
+  color: #A15CF2;
+}
+
+.equals button {
+  background: #351e4e;
+}
+
+.reset {
+  display: flex;
+  width: 100%;
+  gap: 3%;
+}
+
+.reset button {
+  background: #30253d;
+}
+
+/* Containers ------------------------------------------------------- */
+.resetButtons {
+  display: flex;
+  justify-content: end;
+  gap: 3%;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
