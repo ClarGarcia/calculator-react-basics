@@ -2,17 +2,18 @@
 
 Um projeto de calculadora desenvolvido com React, criado como parte do curso React Basics da Meta (Coursera), com o objetivo de aplicar e consolidar conceitos fundamentais do desenvolvimento frontend moderno.
 
+
 # 🚀 Sobre o projeto
 Este projeto consiste em uma calculadora funcional que realiza operações matemáticas básicas e avançadas, com interface moderna e responsiva.
 
 O principal objetivo foi praticar os conceitos essenciais do React, como:
-
 Componentização
 Props
 State (useState)
 Manipulação de eventos
 Renderização condicional
 Estrutura de projetos com Vite
+
 
 
 # 🎯 Objetivo de aprendizagem
@@ -23,6 +24,7 @@ Entender a arquitetura baseada em componentes
 Praticar gerenciamento de estado com hooks
 Melhorar a organização de código frontend
 Aplicar boas práticas de desenvolvimento moderno
+
 
 
 # 🧠 Funcionalidades
@@ -37,12 +39,14 @@ Aplicar boas práticas de desenvolvimento moderno
 ✔️ Interface interativa
 
 
+
 # 🛠️ Tecnologias utilizadas
 React
 JavaScript (ES6+)
 Vite
 CSS3
 HTML5
+
 
 
 # 📁 Estrutura do projeto
@@ -53,6 +57,7 @@ src/
 ├── App.jsx
 ├── App.css
 └── main.jsx
+
 
 
 # ⚙️ Como executar o projeto
@@ -66,6 +71,7 @@ npm install
 npm run dev
 
 
+
 # 📚 Aprendizados
 Durante o desenvolvimento deste projeto, foram praticados conceitos importantes do ecossistema React, como:
 
@@ -77,16 +83,20 @@ Estruturação de projeto com Vite
 Organização de código frontend
 
 
+
 # 📸 Preview
 ![Preview do projeto](./src/assets/screenshot.png)
+
 
 
 # 📌 Status do projeto
 ✔️ Concluído (versão de aprendizado)
 
+
 # 👨‍💻 Autor
 Clara Carolina
 Desenvolvido como parte do curso React Basics – Meta (Coursera).
+
 
 # 📖 Curso de referência
 React Basics
